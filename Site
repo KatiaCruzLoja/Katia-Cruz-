@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kátia Cruz - Moda Feminina</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#fff;
+    color:#333;
+}
+
+header{
+    background:#E91E63;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:15px;
+    background:#f8f8f8;
+    flex-wrap:wrap;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#E91E63;
+}
+
+.banner{
+    height:450px;
+    background:linear-gradient(to right,#E91E63,#F8BBD0);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.btn{
+    
